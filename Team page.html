@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VGo Technologies &mdash; Team</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Muli:300,400,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+          
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo"><a href="index.html" class="text-uppercase">V-G0 Tech.</a></div>
+          <div>
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="aboutus-page.html" class="nav-link">About Us</a></li>
+                <li><a href="services%20page.html" class="nav-link">Services</a></li>
+                <li><a href="Team%20page.html" class="nav-link">Team</a></li>
+                <li><a href="blog%20page.html" class="nav-link">Our Blogs</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+          <div class="ml-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-xl-block">
+                <li><a href="loginpage.html" style="color: #dd7171" class="nav-link"><b>Login</b></a></li>
+                <li class="cta"><a href="contact%20page.html" class="nav-link"><span class="border bg-danger rounded text-white border-danger">Contact</span></a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-xl-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+      <style>
+           body
+          {
+              background-image: url(images/bggg.jpg);
+              background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+          }
+           .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: #108d6f;
+            border-color: #108d6f;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #007b5e;
+            border-color: #007b5e;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        section .section-title {
+            text-align: center;
+            color: #007b5e;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        #team .card {
+            border: none;
+            background: #ffffff;]
+        
+        }
+
+        .image-flip:hover .backside,
+        .image-flip.hover .backside {
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            border-radius: .25rem;
+        }
+
+        .image-flip:hover .frontside,
+        .image-flip.hover .frontside {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+
+        .mainflip {
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -moz-transition: 1s;
+            -moz-transform: perspective(1000px);
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        .frontside {
+            position: relative;
+            -webkit-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            z-index: 2;
+            margin-bottom: 30px;
+            margin-left: 445px;
+            width: 450px;
+        }
+
+        .backside {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color:black;
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            margin-left: 445px;
+            width: 450px;
+        }
+
+        .frontside,
+        .backside {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -moz-transition: 1s;
+            -moz-transform-style: preserve-3d;
+            -o-transition: 1s;
+            -o-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+        }
+
+        .frontside .card,
+        .backside .card {
+            min-height: 312px;
+        }
+
+        .backside .card a {
+            font-size: 18px;
+            color: #007b5e !important;
+        }
+
+        .frontside .card .card-title,
+        .backside .card .card-title {
+            color: #007b5e !important;
+        }
+
+        .frontside .card .card-body img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        #content1 {
+            margin-bottom: 70px;
+        }
+
+        .col-md-3 {
+            margin-left: 5%;
+        }
+
+        button {
+            margin: 30px 50%;
+            line-height: 40px;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            outline: none !important;
+            width: 100%;
+            position: sticky;
+        }
+
+        button:active {
+            outline: none;
+        }
+
+        h2 {
+            display: block;
+            font-size: 2em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-right: 0;
+            font-weight: bold;
+        }
+
+       
+
+        button:before,
+        button:after {
+            content: '';
+            position: absolute;
+            height: 0;
+            width: 0;
+            border-style: solid;
+            border-width: 0;
+            outline: none;
+        }
+
+        #ds {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+         
+        }
+
+        
+
+        button.btn-primary:before {
+            border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+        }
+
+        button.btn-primary:after {
+            border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+        }
+
+                   </style>
+
+   
+      
+    </header>
+<section class="blog-banner-area" id="category">
+		<div class="container h-100">
+			<div class="blog-banner">
+				<div class="text-center">
+                    <br><br><br><br>
+					<h1 style=color:azure;>Team</h1>
+					<nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              
+                        </ol></nav></div></div>
+			
+			
+    </div>
+	</section>
+
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+        </div>
+        <h1 style="text-align: center; color: antiquewhite; font-family: inherit"><b>Developer</b></h1>
+        
+        <br>
+   
+       <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div  class="card-body text-center">
+                                    <p><img class=" img-fluid"
+                                            src="images/aarushi.jpg"
+                                            alt="card image"></p>
+                                    <h4 class="card-title">Aarushi Hans </h4>
+                                    <p class="card-text">Information Technology <br> Student</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Aarushi Hans</h4>
+                                    <p class="card-text"><b>About her </b>:<br>
+
+                    	
+Likes to code. Plays football, dances and is a keen debator. Currently in first year, pursuing Btech(IT) at NIT Kurukshetra. 
+
+
+                                            
+                                             </p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+            </div>    </div>
+
+        
+        <!-- </div>
+    
+                  <div class="col-md-2"> -->
+    <br><br><br>
+
+ <h1 style="text-align: center; color: antiquewhite; font-family: inherit"><b>Teacher Incharge of Project</b></h1>
+             <br>       
+
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div id="cardd" class="card-body text-center">
+                                            <p><img class=" img-fluid"
+                                                    src="images/comp3.jpg"
+                                                    alt="card image"></p>
+                                            <h4 class="card-title">Mamtesh Ma'am</h4>
+                                            <p class="card-text">Professor</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Mamtesh Ma'am</h4>
+                                            <p class="card-text">	
+                                                    Areas of current research interest:
+                                                    
+                                                    Software Engineering.
+                                                    Research Activities
+                                                    
+                                                    Supervising B.tech and M.Tech. students</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    <br><br>
+     
+     <footer class="footer-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>Question Assumptions. Think Deeply. Iterate as a Lifestyle. Details, Details. Design is Everywhere. Integrity..</p>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+            <h3>Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="index.html" class="smoothscroll">Home</a></li>
+              <li><a href="aboutus-page.html" class="smoothscroll">About Us</a></li>
+              <li><a href="services%20page.html" class="smoothscroll">Services</a></li>
+              <li><a href="Team%20page.html" class="smoothscroll">Team</a></li>
+              <li><a href="blog%20page.html" class="smoothscroll">Our Blogs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Subscribe</h3>
+            <p>Subscribe for the latest news from us.</p>
+            <form action="#">
+              <div class="d-flex mb-5">
+                <input type="text" class="form-control rounded-0" placeholder="Email">
+                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+           <div class="symbol-section" >
+    <i class="fa fa-facebook-official -hover-opacity"></i>
+    <i class="fa fa-instagram -hover-opacity"></i>
+    <i class="fa fa-snapchat -hover-opacity"></i>
+    <i class="fa fa-pinterest-p -hover-opacity"></i>
+    <i class="fa fa-twitter -hover-opacity"></i>
+    <i class="fa fa-linkedin -hover-opacity"></i>
+  </div>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
+            </p>
+            
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>
+    
+  
+  </body>
+</html>
